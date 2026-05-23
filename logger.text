@@ -346,3 +346,5 @@ Method-> GET, - Time-> 2026-05-23T10:11:33.706Z,- URL-> /
 Method-> GET, - Time-> 2026-05-23T10:11:40.212Z,- URL-> /api/auth
 
 Method-> POST, - Time-> 2026-05-23T10:11:50.754Z,- URL-> /api/auth/login
+
+Method-> GET, - Time-> 2026-05-23T12:32:27.959Z,- URL-> /api/auth

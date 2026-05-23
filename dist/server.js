@@ -104,6 +104,7 @@ var createUserIntoDb = async (payload) => {
 var getAllUsersFromDb = async () => {
   try {
     const result = await pool.query("SELECT * FROM users");
+    result.rows.forEach((user) => delete user.password);
     return result.rows;
   } catch (error) {
     console.error("Error fetching users from database:", error);
