@@ -172,7 +172,7 @@ npm run dev
 ---
 
 ## 🗂️ Project Structure
-
+```
 src/
 │
 ├── config/
@@ -186,7 +186,7 @@ src/
 │
 ├── app.ts
 └── server.ts
-
+```
 ## 🚀 Future Improvements
 
 -Pagination & filtering for issues
